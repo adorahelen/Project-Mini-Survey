@@ -72,4 +72,10 @@
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/b737f645-803c-49b0-8a2b-62851d1048a3">
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/4cf1e484-a5b8-4467-b521-d310bce9a3ba">
 
+## 코드 
+- 디렉토리는 소문자로, 클래스 파일은 대문자로, 언더바는 상수만
+1. VO(Value Object) : 디비 칼럼 명시(필드), 게터&세터 정의
+2. DAO(Data Access Object) : 디비의 데이터에 접근하기 위한 객체(DML정의) *DBcon도 보통 함께
+3. Controller
+4. View(Service)
 
