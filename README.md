@@ -45,7 +45,6 @@
 
 ## 테이블 목록
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/30a0c91a-4dfb-4b4f-b84a-200e945e2b47">
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/e59b8e14-cb41-40e6-b576-b5e80176d548">
 
 
 
