@@ -39,6 +39,8 @@
 
 ## 화면 레이아웃 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/cff520a3-70fa-4996-beaf-faebd3e94609">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/4d0d02eb-d404-405c-b83c-1a8a1fae37e4">
+
 
 ## 클래스 다이어그램
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/8969630b-9883-42ae-b978-e76531ebc941">
