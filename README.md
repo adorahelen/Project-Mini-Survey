@@ -31,3 +31,8 @@
 - 설문 등록
 - 설문 수정
 - 설문 삭제
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c86443c3-011c-4275-ae7c-754e7a0fe5bf">
+
+
+## 화면 흐름도 
+
