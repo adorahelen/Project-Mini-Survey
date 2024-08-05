@@ -50,4 +50,6 @@
 
 ## ERD 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/b737f645-803c-49b0-8a2b-62851d1048a3">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/4cf1e484-a5b8-4467-b521-d310bce9a3ba">
+
 
