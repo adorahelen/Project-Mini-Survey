@@ -76,8 +76,8 @@
 - 디렉토리는 소문자로, 클래스 파일은 대문자로, 언더바는 상수만
 1. VO(Value Object) : 디비 칼럼 명시(필드), 게터&세터 정의
 2. DAO(Data Access Object) : 디비의 데이터에 접근하기 위한 객체(DML정의) *DBcon도 보통 함께
-3. Controller
-4. View(Service)
+3. Controller : 뷰에서 호출(전달)되고, DAO를 호출하고, HTTP요청<->
+4. View : 프론트영역(Resource Directory), 뿌리는 영역
 5. *Repository(인터페이스) <-> entity(VO)
 6. *DTO(Data Transfer Object) : 데이터교환(Request,Response)
 
@@ -87,6 +87,10 @@
 - 이를 해결하기 위해 JSP를 사용해 뷰를 생성하는 HTML 작업을 분리시켰고 중간중간 동적인 작업이 필요한 부분만 자바 코드를 적용시켰다.
 - 하지만 이 또한 많은 자바 코드가 JSP에 노출되어 JSP가 너무 많은 역할을 떠맡게 된다.
 - 그래서 비즈니스 로직과 뷰를 그리는 작업을 분리하기 위하여 MVC 패턴을 사용하게 되었다.
+* Model(VO, DAO, DBconect) + View(Html,css,JS) + Controller
+* Service는 Model영역을 조금더 보기좋게 가공해 놓은 영역 
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/7e9ad5c9-aaa3-4a79-a918-229d838c824d">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/77481122-bbe8-446c-be6c-0b0fe1a5aef9">
+
 
