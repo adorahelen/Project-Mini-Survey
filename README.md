@@ -35,4 +35,8 @@
 
 
 ## 화면 흐름도 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/373e1e17-0edb-44e6-846b-e8d91fc62cc2">
+
+## 클래스 다이어그램
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/8969630b-9883-42ae-b978-e76531ebc941">
 
