@@ -87,8 +87,8 @@
 - 이를 해결하기 위해 JSP를 사용해 뷰를 생성하는 HTML 작업을 분리시켰고 중간중간 동적인 작업이 필요한 부분만 자바 코드를 적용시켰다.
 - 하지만 이 또한 많은 자바 코드가 JSP에 노출되어 JSP가 너무 많은 역할을 떠맡게 된다.
 - 그래서 비즈니스 로직과 뷰를 그리는 작업을 분리하기 위하여 MVC 패턴을 사용하게 되었다.
-* Model(VO, DAO, DBconect) + View(Html,css,JS) + Controller
-* Service는 Model영역을 조금더 보기좋게 가공해 놓은 영역 
+1. Model(VO, DAO, DBconect) + View(Html,css,JS) + Controller
+2. Service는 Model영역을 조금더 보기좋게 가공해 놓은 영역 
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/7e9ad5c9-aaa3-4a79-a918-229d838c824d">
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/77481122-bbe8-446c-be6c-0b0fe1a5aef9">
