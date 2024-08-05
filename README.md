@@ -48,6 +48,24 @@
 ## 테이블 목록
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/30a0c91a-4dfb-4b4f-b84a-200e945e2b47">
 
+## 테이블 정의서
+t_servey
+설문번호 / sno / int /        nn / pk / auto_increment
+설문제목 / title / varchar(100) / nn
+설문항목1 / one / varchar(100) / nn
+설문항목2 / two / varchar(100) / nn
+설문항목1득표수 / one_cnt / int
+설문항목2득표수 / two_cnt / int
+설문시작일 / start_date / date
+설문종료일 / end_date / date
+등록일 / reg_date / date / nn
+수정일 / mod_date / date
+t_vote
+설문번호 : sno / int / nn / pk / fk
+아이디 : pid / varchar(20) / nn / fk
+선택 항목 : choice / int
+설문 참여일 : vote_date / date
+
 
 
 ## ERD 
