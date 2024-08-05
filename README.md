@@ -37,6 +37,12 @@
 ## 화면 흐름도 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/373e1e17-0edb-44e6-846b-e8d91fc62cc2">
 
+## 화면 레이아웃 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/cff520a3-70fa-4996-beaf-faebd3e94609">
+
 ## 클래스 다이어그램
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/8969630b-9883-42ae-b978-e76531ebc941">
+
+## ERD 
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/b737f645-803c-49b0-8a2b-62851d1048a3">
 
