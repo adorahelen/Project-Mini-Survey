@@ -66,7 +66,7 @@ public class View {
             default -> System.out.println("Invalid choice. Please try again.");
         }
     }
-
+// 이거 스캐너로 직접 대입하도록 코드를 작성한거 같은데, private으로 막아놔서 값이 안들어 갈꺼다. 수정 필요할듯
     private void addMember(Scanner scanner) {
         System.out.print("Enter Member ID: ");
         String mid = scanner.nextLine();
