@@ -3,16 +3,16 @@ import java.sql.Date;
 
 public class SurveyVO {
 
-    private int surveyNo;
-    private String title;
-    private String one;
-    private String two;
-    private int oneCnt;
-    private int twoCnt;
-    private Date startDate;
-    private Date endDate;
-    private Date regDate;
-    private Date modDate;
+    private int surveyNo; // 설문번호
+    private String title; // 설문 제목
+    private String one; // 1번항목
+    private String two; // 2번항목
+    private int oneCnt; // 1번  항목 득표수
+    private int twoCnt; // 2번 항목 득푝수
+    private Date startDate; // 설문 시작일 - 강사님은 스트링
+    private Date endDate; // 설문 종료일 - ;
+    private Date regDate; // 설문 등록일
+    private Date modDate; // 설문 수정일
 
     // Getters and Setters
     public int getSurveyNo() {

@@ -12,6 +12,8 @@ public class AppMain {
         View view = new View();
         try {
             view.displayMenu();
+            // 지금은 이렇게 메뉴를 먼저 띄우지만, 만약 로그인 기능을 도입한다면?
+            // 로그인 화면 메뉴를 먼저 띄운다음, 조건을 충족하면 메뉴를 띄우는 함수를 호출하게끔
         } catch (SQLException e) {
             System.out.println("Error: " + e.getMessage());
             throw new RuntimeException(e);

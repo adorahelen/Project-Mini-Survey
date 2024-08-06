@@ -6,15 +6,9 @@ import model.MemberVO;
 import model.VoteVO;
 import model.SurveyVO;
 
-import dao.SurveyDAO;
-import dao.VoteDAO;
-import dao.MemberDAO;
-
 import controller.MemberController;
 import controller.SurveyController;
 import controller.VoteController;
-
-import util.DBconJDBC;
 
 public class View {
 
@@ -53,7 +47,7 @@ public class View {
         }
         scanner.close();
     }
-
+// 1번 맴버로 진입시, 만나는 맴버 씨알유디
     private void manageMembers(Scanner scanner) {
         System.out.println("\n--- Manage Members ---");
         System.out.println("1. Add Member");
@@ -137,6 +131,8 @@ public class View {
         String mid = scanner.nextLine();
         memberController.deleteMember(mid);
     }
+
+    // 여기까지가 1번 맴버 관리에 대한 씨알유디
 
     private void manageSurveys(Scanner scanner) throws SQLException {
         System.out.println("\n--- Manage Surveys ---");

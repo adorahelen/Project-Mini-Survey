@@ -13,7 +13,7 @@ import java.sql.SQLException;
 
 public class VoteDAO {
 
-    // Create
+    // Create 설문 참여
     public boolean createVote(VoteVO vote) throws SQLException {
         String sql = "INSERT INTO t_vote (survey_no, id, one_two, vote_date) VALUES (?, ?, ?, ?)";
         try (Connection conn = DBconJDBC.getConnection();
@@ -23,11 +23,12 @@ public class VoteDAO {
             stmt.setInt(3, vote.getOneTwo());
             stmt.setDate(4, vote.getVoteDate());
             stmt.executeUpdate();
-        }
+        } // 기본키 외래키 설정을 해놨기 때문에 survey_no, id가 문제 생길 수 있다.
+        // 참조하는 설베이 테이블에 값이 있으면 입력이 될꺼고, 없는 값이면 입력이 되지 않을꺼다
         return false;
     }
 
-    // Read
+    // Read 설문 참여 여부 확인
     public VoteVO readVote(int surveyNo, String id) throws SQLException {
         String sql = "SELECT * FROM t_vote WHERE survey_no = ? AND id = ?";
         try (Connection conn = DBconJDBC.getConnection();
