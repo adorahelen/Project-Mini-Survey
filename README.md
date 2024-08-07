@@ -88,9 +88,12 @@
 - 하지만 이 또한 많은 자바 코드가 JSP에 노출되어 JSP가 너무 많은 역할을 떠맡게 된다.
 - 그래서 비즈니스 로직과 뷰를 그리는 작업을 분리하기 위하여 MVC 패턴을 사용하게 되었다.
 1. Model(VO, DAO, DBconect) + View(Html,css,JS) + Controller
-2. Service는 Model영역을 조금더 보기좋게 가공해 놓은 영역 
+2. Service는 Model영역을 조금더 보기좋게 가공해 놓은 영역
+3. 처음에는 웹소켓으로 클라이언트와 주고 받다가, JSP,서블릿 이용 => 현재는 스프링 => 스프링부트 
+4. 처음에는 JDBC만으로 DB에 접근하다가 => 현재는 JPA
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/7e9ad5c9-aaa3-4a79-a918-229d838c824d">
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/77481122-bbe8-446c-be6c-0b0fe1a5aef9">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/a522d351-4fad-4622-9e9f-be310075363e">
 
 
